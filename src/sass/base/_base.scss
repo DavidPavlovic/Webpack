@@ -2,9 +2,16 @@
     --text: #fff;
 }
 
+html,body {
+    height: 100%;
+}
+
 body {
     background-color: map-get($app-layout, app-bg);
     color: var(--text);
     display: flex;
     flex-direction: column;
+    background-image: url("../images/webpack.svg");
+    background-size: cover;
+    background-repeat: no-repeat ;
 }
